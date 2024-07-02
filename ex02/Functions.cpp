@@ -27,7 +27,6 @@ void identify(Base* p) {
 }
 
 void identify(Base& p) {
-    // We'll use a dummy variable and check if the cast was successful
     Base* dummy = &p;
     
     if (dynamic_cast<A*>(dummy))
